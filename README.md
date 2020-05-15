@@ -1,2 +1,2 @@
 # mashov-darkmode
-A Dark Mode design for https://web.mahov.info
+A Dark Mode design for https://web.mashov.info

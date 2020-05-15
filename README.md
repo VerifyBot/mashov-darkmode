@@ -1,4 +1,4 @@
-# mashov-darkmode
+# Mashov Dark Mode
 A Dark Mode design for https://web.mashov.info/students/login
 
 

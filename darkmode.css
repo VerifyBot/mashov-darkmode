@@ -1,0 +1,478 @@
+::selection {
+  color: white !important;
+  background: rgba(235, 230, 230, 0.635);
+}
+
+body>mshv-root>mshv-login,
+body,
+#mainView>mat-sidenav-content>mshv-student-dashboard>mat-card,
+mat-sidenav-content,
+#mainView>mat-sidenav-content>mshv-student>mshv-students-qr-code>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-timetable>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-bbb>mat-card,
+#mshv-settings-container,
+[id*="cdk-accordion-child-"]>mat-action-row,
+[id*="cdk-accordion-child-"]>div,
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card, #mainView > mat-sidenav-content > mshv-mailbox-folder > mat-paginator > div > div {
+  background: #312d2d !important;
+  color: #bbb !important;
+}
+
+#mat-select-0>div>div.mat-select-value.ng-tns-c131-4>span>span,
+#loginPage *,
+mat-dialog-content *,
+#recoverPage *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-justification-request-form>mat-card *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-lessonhistory>mat-list *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-alfon>mat-list *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-messageboard>mat-card *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-bbb>mat-card *,
+#mainView>mat-sidenav-content>mshv-contact-support>mat-card *,
+#mshv-settings-container *,
+#mainView>mat-sidenav-content>mshv-student>mshv-moodle-assignments>mat-list *,
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card *, #mainView > mat-sidenav-content > mshv-mailbox-folder > mat-paginator > div > div *, #mainView > mat-sidenav-content > mshv-mailbox-folder > mat-list *, #mainView > mat-sidenav-content > mshv-mailbox-folder > mshv-mailbox-folder-searchbar > mat-card *, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card *, #mainView > mat-sidenav-content > mshv-mailbox-labels > mat-card * {
+  color: #bbb;
+}
+
+#mat-tab-label-0-0>div,
+.mat-tab-label-content,
+mshv-one-time-password>mat-dialog-content>mat-card>mat-card-content>span,
+[id*="mat-select-"]>div>div.mat-select-arrow-wrapper.ng-tns-c131-6>div {
+  color: white;
+}
+
+#loginPage,
+[id*='mat-dialog-'],
+#recoverPage {
+  background: #313131;
+  color: #bbb !important;
+}
+
+a {
+  color: #67a467 !important;
+}
+
+a:hover {
+  color: #67a467d8 !important;
+}
+
+[id*="mat-autocomplete-"],
+[id*="cdk-overlay-"]>div>div,
+[id*='mat-dialog-'],
+mat-autocomplete-panel {
+  background: #332e2e !important;
+}
+
+.mat-option,
+.mat-option * {
+  color: #979797 !important;
+}
+
+.mat-option:hover {
+  background: #2c2a2a !important;
+}
+
+[id*='mat-dialog-title-'],
+[id*="mat-button-toggle-"]:hover {
+  background: #106030 !important;
+}
+
+div.mat-radio-outer-circle {
+  border-color: #ccc;
+}
+
+mshv-one-time-password mat-dialog-content mat-form-field {
+  margin-top: 10px;
+}
+
+mshv-one-time-password mat-dialog-content mat-form-field mat-icon {
+  margin-left: 5px;
+}
+
+mat-icon[svgicon*='alert:ic_warning_'] * {
+  color: rgb(221, 224, 50) !important;
+}
+
+#recoverPage>mat-card {
+  background: #434356 !important;
+}
+
+#contentDiv div.jumbotron {
+  color: #5a5a5a !important;
+}
+
+#contentDiv div.jumbotron a,
+#btnContactUs,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-timetable>mat-card * {
+  color: white !important;
+}
+
+
+#mainView>mat-sidenav-content>mshv-student-dashboard>mat-card>mat-card-content>div:nth-child(3)>mat-card:nth-child(2) {
+  background: #44d5b1 !important;
+  color: white !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student-dashboard>mat-card>div>div mat-card {
+  background: #454141 !important;
+  color: #bbb !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student-dashboard>mat-card>div *, #mainView > mat-sidenav-content > mshv-mailbox-folder > mat-list.mat-list.mat-list-base.ng-star-inserted > mat-list-item *, #mainView > mat-sidenav-content > mshv-mailbox-folder > mshv-mailbox-folder-searchbar > div > mat-form-field * {
+  color: #bbb !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student-dashboard>mat-card>div>div:nth-child(7)>mat-card>mat-card-content>mat-list>mat-list-item>div>div>small {
+  background: #5e5186 !important;
+  color: white !important;
+}
+
+#mainView>mat-sidenav>div {
+  background: linear-gradient(140deg, #424242 25%, #3e3e3e 30%, #212121) !important;
+}
+
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li>button>span>div>span {
+  color: #bbb;
+}
+
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li>button>span>div:hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card {
+  background: #393535;
+}
+
+
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li>button>span>div>span.mshv-menu-label {
+  color: white;
+  background: #796e6e94;
+}
+
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li>button>span>div>mat-icon>svg {
+  color: white !important;
+}
+
+[id*=mat-button-toggle-] {
+  background: #3b3b3b !important;
+  color: #bbb !important;
+}
+
+#mainView>mat-sidenav>div>mshv-main-menu>mshv-student-block>div>img {
+  background: #534c4c;
+  border-color: #313131;
+}
+
+#mainView>mat-sidenav>div>mshv-main-menu>mshv-student-block>div>div>button.mat-menu-trigger.mshv-student-menubutton.mat-raised-button.mat-button-base,
+#mainView>mat-sidenav>div>mshv-main-menu>mshv-student-block>div>div>button {
+  background: #605f5f;
+  color: #fdfdfd;
+}
+
+
+#mat-menu-panel-2>div {
+  background: #126035;
+}
+
+mshv-date-dialog>mshv-daterange>div>form>mat-form-field mat-datepicker-toggle>button>span>svg,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-justification-request-form>mat-card>form>div>mat-form-field>div>div.mat-form-field-flex.ng-tns-c129-10>div.mat-form-field-suffix.ng-tns-c129-10.ng-star-inserted>mat-datepicker-toggle>button>span>svg, #mainView > mat-sidenav-content > mshv-mailbox-folder > mshv-mailbox-folder-searchbar > mat-card > form > div > mat-card-content > mat-form-field svg {
+  color: white;
+  font-size: 40px;
+}
+
+
+[id*="mat-datepicker"] {
+  background: #272424;
+  color: white;
+}
+
+[id*="mat-datepicker"] *,
+[id*="mat-expansion-panel-header-"] mat-panel-title,
+[id*="mat-expansion-panel-header-"]>span.mat-expansion-indicator::after,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behave>div>cdk-virtual-scroll-viewport>div.cdk-virtual-scroll-content-wrapper>mat-list>mat-list-item>div>div:nth-child(3)>div.ng-star-inserted>button>span {
+  color: white !important;
+}
+
+[id*="mat-datepicker"]>div>mat-month-view>table>thead>tr th:hover,
+[id*="mat-datepicker"]>div>mat-month-view>table>tbody>tr>td:hover {
+  background: #454242;
+}
+
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li:hover,
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li:active,
+#mainView>mat-sidenav>div>mshv-main-menu>ul>li>button>span>div:hover {
+  background-color: #106030 !important;
+}
+
+
+/* No data cards */
+#mainView>mat-sidenav-content>mshv-student>mshv-students-qr-code>mat-card>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-reportcardsfiling>mat-card,
+[id*="mat-expansion-panel-header-"],
+#mainView>mat-sidenav-content>mshv-student>mshv-student-outbehave>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-specialhours>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-studymaterial>mat-card,
+#mainView>mat-sidenav-content>mshv-forms-answerlist>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-hatamot>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-hatamot-bagrut>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-recordings>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-moodle-quizzes>mat-card {
+  color: white !important;
+  background: #1878b0 !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-regulargrades>mat-list *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behave>div>cdk-virtual-scroll-viewport>div.cdk-virtual-scroll-content-wrapper>mat-list *,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behavecounter>mat-list * {
+  color: #bbb !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-regulargrades>mat-list>mat-list-item {
+  border-color: #767474;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-regulargrades>mat-list>mat-list-item:hover {
+  background: #3c3b3b;
+}
+
+[id*="mat-menu-panel-"] * {
+  color: white !important;
+}
+
+[id*="cdk-accordion-child-"]>div {
+  background: #2c2c2c;
+}
+
+[id*="cdk-accordion-child-"] * {
+  color: white !important;
+}
+
+[id*="cdk-accordion-child-"]>div>div>div>canvas {
+  background: #2f2e2e;
+  margin-top: 10px;
+}
+
+[id*="mat-dialog-"]>mshv-chart-dialog>div>div>button {
+  background: #414141;
+  color: white;
+}
+
+/* Blue Button */
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behave>div>cdk-virtual-scroll-viewport>div.cdk-virtual-scroll-content-wrapper>mat-list>mat-list-item>div>div:nth-child(3)>div.ng-star-inserted>button:not([disabled="true"]):hover,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behavecounter>mat-list>mat-list-item>div>button:not([disabled="true"]):hover,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-bbb>mat-card:nth-child(2)>mat-card-title>button:hover,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-bbb>mat-card>mat-card-title>button:hover,
+#mainView>mat-sidenav-content>mshv-contact-support>mat-card>form>mat-card-actions>button:not([disabled="true"]):hover,
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card>mat-card-content>mshv-mailbox-compose>div>div button:hover, #mainView > mat-sidenav-content > mshv-mailbox-folder > mshv-mailbox-folder-searchbar > mat-card > form > div:nth-child(3) > button:hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div > button:hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(3) > div > button:hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(7) > div > button:hover {
+  background: #3647a2;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behave>div>cdk-virtual-scroll-viewport>div.cdk-virtual-scroll-content-wrapper>mat-list>mat-list-item>div>div:nth-child(3)>div.ng-star-inserted>button[disabled="true"],
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behavecounter>mat-list>mat-list-item>div>button[disabled="true"] {
+  background: #585658 !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behave>div>cdk-virtual-scroll-viewport>div.cdk-virtual-scroll-content-wrapper>mat-list>mat-list-item>div>div>div>div>span {
+  margin-right: 3px;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-justification-request-form>mat-card {
+  background: #393737;
+  color: white;
+}
+
+
+/* justificationRequests */
+#mainView>mat-sidenav-content>mshv-student>mshv-student-justification-requests>mat-card {
+  background: #2c2929;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-justification-requests>mat-card * {
+  color: #bbb !important;
+}
+
+[id*="mat-dialog-"]>mshv-studentbehavecounter-dialog>div>mat-dialog-content>mat-list>mat-list-item:nth-child(1),
+#mainView>mat-sidenav-content>mshv-student>mshv-student-timetable>mat-card * {
+  border-color: #706a6a;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-timetable>mat-card>mat-grid-list>div>mat-grid-tile>figure {
+  background: #3a3939;
+  height: 95%;
+  ;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-timetable>mat-card>mat-grid-list>div>mat-grid-tile>figure>div>div.timetable-header {
+  background: #585858;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-lessonhistory>mat-list>mat-list-item>div>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-messageboard>mat-card,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-bbb>mat-card:nth-child(2),
+#mainView>mat-sidenav-content>mshv-contact-support>mat-card,
+#mshv-settings-container {
+  background: #383737;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-lessonhistory>mat-list>mat-list-item,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-alfon>mat-list>mat-list-item,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behave>div>cdk-virtual-scroll-viewport>div.cdk-virtual-scroll-content-wrapper>mat-list>mat-list-item,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-behavecounter>mat-list>mat-list-item,
+#mainView>mat-sidenav-content>mshv-student>mshv-student-messageboard>mat-card>mat-card-content>mat-list>mat-list-item:nth-child(2),
+[id*="cdk-accordion-child-"]>mat-action-row,
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card>mat-card-content>mshv-mailbox-compose>div mat-form-field div div div {
+  border-color: #585555 !important;
+
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-messageboard>mat-card>mat-card-content>mat-list>mat-list-item>div * {
+  background-color: #383737 !important;
+}
+
+#mainView>mat-sidenav-content>mshv-student>mshv-student-bbb>mat-card {
+  background: #312d2d !important
+}
+
+#mshv-settings-container {
+  margin-top: 10px !important;
+}
+
+[id*="mat-expansion-panel-header-"] {
+  border: 2px solid #353535 !important;
+  background: #353535 !important;
+}
+
+[id*="cdk-accordion-child-"]>mat-action-row>button {
+  background: #8f3c3c;
+}
+
+[id*="cdk-accordion-child-"]>mat-action-row>button:hover {
+  background: #753131;
+}
+
+[id*="mat-checkbox-"]>label>div>div.mat-checkbox-frame {
+  border-color: #6a6a6a;
+}
+
+[id*="cdk-accordion-child-"]>div>mat-card {
+  background: #414040;
+}
+
+[id*="cdk-accordion-child-"]>div>mat-card>span.mshv-more {
+  background: #717671;
+  margin: 5px !important;
+}
+
+[id*="cdk-accordion-child-"]>div>mat-card {
+  margin: 5px !important;
+}
+
+[id*="cdk-accordion-child-"]>div>mat-card>mat-card {
+  background: #2f2f2f;
+}
+
+/* Mail */
+
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card>mat-card-content>mshv-mailbox-compose>div>div:nth-child(3)>div>button:nth-child(2), #mainView > mat-sidenav-content > mshv-mailbox-composewrapper > mat-card > mat-card-content > mshv-mailbox-compose > div > div:nth-child(7) > div > button:nth-child(2), #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(3) > div > button:nth-child(2), #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(7) > div > button:nth-child(2), #mainView > mat-sidenav-content > mshv-mailbox-labels > mat-card > mat-list > mat-list-item > div > div:nth-child(3) > button {
+  background: #585858
+}
+
+
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card>mat-card-content>mshv-mailbox-compose>div>div:nth-child(3)>div>button:nth-child(2):hover, #mainView > mat-sidenav-content > mshv-mailbox-composewrapper > mat-card > mat-card-content > mshv-mailbox-compose > div > div:nth-child(7) > div > button:nth-child(2):hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(3) > div > button:nth-child(2):hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(7) > div > button:nth-child(2):hover, #mainView > mat-sidenav-content > mshv-mailbox-labels > mat-card > mat-list > mat-list-item > div > div:nth-child(3) > button:hover {
+  background: #444444
+}
+
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card>mat-card-content>mshv-mailbox-compose>div>div:nth-child(3)>button:hover, #mainView > mat-sidenav-content > mshv-mailbox-composewrapper > mat-card > mat-card-content > mshv-mailbox-compose > div > div:nth-child(7) > button:hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(3) > button:hover, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div:nth-child(2) > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > div:nth-child(7) > button:hover {
+  background: #d1382d;
+}
+
+[id*="mat-chip-list-"] mat-chip {
+  background: #096a61 !important;
+}
+
+
+.mat-option.mat-selected {
+  background: rgb(53, 53, 53) !important;
+}
+
+#mainView>mat-sidenav-content>mshv-mailbox-composewrapper>mat-card>mat-card-content>mshv-mailbox-compose>div>mat-card, #mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div > mshv-mailbox-message > mat-card > div > mshv-mailbox-compose > div > mat-card {
+  background: #01258a !important;
+}
+
+#mainView > mat-sidenav-content > mshv-mailbox-composewrapper > mat-card > mat-card-content > mshv-mailbox-compose > div > div > mshv-mailbox-recipients > mat-form-field {
+  margin-bottom: 5px !important;
+}
+
+/* Mail Writing */
+
+
+
+
+#mceu_33-body,
+#mceu_56-body {
+  background: #282828;
+}
+
+#mceu_31,
+#mceu_33 {
+  border-color: #525252;
+}
+
+
+.mce-ico {
+  color: #757474 !important;
+}
+
+#mceu_41 {
+  background: #333333 !important;
+}
+
+.mce-btn {
+  background-color: #3b3b3b !important;
+}
+
+.mce-menu {
+  background: #393939 !important;
+}
+
+.mce-menu * {
+  color: #bbb !important;
+}
+
+.mce-caret {
+  border-top-color: #ccc !important;
+}
+
+
+
+#mainView > mat-sidenav-content > mshv-mailbox-folder > mat-list.mat-list.mat-list-base.ng-star-inserted > mat-list-item {
+  background: #454545
+}
+
+#mainView > mat-sidenav-content > mshv-mailbox-folder > mat-list.mat-list.mat-list-base.ng-star-inserted > mat-list-item:hover {
+  background: #383838
+}
+
+mat-icon[svgicon*="file:ic_attachment_"] {
+  margin-left: 5px !important;
+}
+
+#mainView > mat-sidenav-content > mshv-mailbox-folder > mshv-mailbox-folder-searchbar > mat-card {
+  background: #3b3b3b;
+}
+
+#mainView > mat-sidenav-content > mshv-mailbox-folder > mshv-mailbox-folder-searchbar > mat-card > form > div > mat-card-content > mat-form-field {
+  margin-bottom: 5px !important;
+}
+
+#mainView > mat-sidenav-content > mshv-mailbox-conversation > mat-card > div > div > mshv-mailbox-message > mat-card {
+  background: #2d2d2d;
+}
+
+.file-attachment-card {
+  background: #5c5c5c !important;
+}
+
+.file-attachment-card:hover {
+  background: #4e4e4e !important; 
+}
+
+#mainView > mat-sidenav-content > mshv-mailbox-labels > mat-card {
+  background: #3b3b3b;
+}
